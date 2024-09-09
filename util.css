@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: rgb(255, 218, 205);
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top_section{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: capitalize;
+}
+.top_section h4{
+    font-size: 26px;
+    font-weight:18px;
+    color: brown;
+    text-align:end;
+}
+
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image_container,
+img{
+    width: 350px;
+    height: 500px;
+}
+
+.about_section {
+    margin-top: 50px;
+}
+
+.about_section h2{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+.about_section p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.objective_section h2{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+.objective_section p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: 20px;
+    text-align: justify;
+}
+.objective_section ul{
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+.Launch_section h2{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+.Launch_section p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.executive_section{
+    margin-top: 20px;
+}
+
+.executive_section ul{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.executive_section h2{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+.funding_section{
+    margin-top: 20px;
+}
+
+.funding_section h2{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+.funding_section p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: 20px;
+    text-align: justify;
+}
+
+footer{
+    margin: 50px 0;
+}
+footer p{
+    text-align: end;
+}
